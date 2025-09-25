@@ -1,7 +1,11 @@
-name: "this is my first workflow"
+- name: Allow PowerShell Scripts
+  run: Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+  shell: powershell
+
+- name: "this is my first workflow"
 
 on: 
-  push:
+ push:
     branches:
       - 'features/**'
       - 'main'
