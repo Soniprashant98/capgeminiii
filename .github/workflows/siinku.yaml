@@ -6,6 +6,15 @@ on:
       - 'features/**'
       - 'main'
       - 'hotfix/**'
+
+jobs:
+  Harishvedprakash:
+    name: harish singh
+    runs-on: gullu-singh
+    steps:
+    - name: ravi devops
+      run: echo harish singh
+
   
 
    
