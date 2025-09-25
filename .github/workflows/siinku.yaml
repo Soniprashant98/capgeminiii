@@ -8,12 +8,12 @@ on:
       - 'hotfix/**'
 
 jobs:
-  Harishvedprakash:
-    name: harish singh
+  DhondhuMaharaj:
+    name: Dhondhu Maharaj
     runs-on: gullu-singh
     steps:
-    - name: ravi devops
-      run: echo harish singh
+    - name: Dhondhu Maharaj Rocks! 
+      run: echo Dhondhu Maharaj
 
   
 
