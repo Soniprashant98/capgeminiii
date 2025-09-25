@@ -1,27 +1,3 @@
 - name: Allow PowerShell Scripts
   run: Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
   shell: powershell
-
-- name: "this is my first workflow"
-
-on: 
- push:
-    branches:
-      - 'features/**'
-      - 'main'
-      - 'hotfix/**'
-
-jobs:
-  DhondhuMaharaj:
-    name: Dhondhu Maharaj
-    runs-on: gullu-singh
-    steps:
-    - name: Dhondhu Maharaj Rocks! 
-      run: echo Dhondhu Maharaj
-
-  
-
-   
- 
- 
-  
