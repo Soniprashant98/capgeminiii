@@ -1,3 +1,16 @@
-- name: Allow PowerShell Scripts
-  run: Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-  shell: powershell
+name : "Dhondu Maharaj"
+
+on:
+  push:
+    branches:
+      - 'feature/**'
+      - 'main'
+      - 'hotfix/**'
+jobs:
+  Dhondumaharaj:
+      name: Dhondu-maharaj
+      runs-on: gullu-singh
+      steps: 
+      - name: Dhondu Maharaj Rocks!
+        run: echo Dhondu-maharaj
+
