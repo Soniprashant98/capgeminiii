@@ -1,0 +1,17 @@
+name: "kishan kumar" 
+
+on: 
+ push: 
+  branches:
+   - 'features/**'
+   - 'main'
+   - 'hotfix/**' 
+
+ jobs:
+   "Rakesh Kumar"
+       name: Dineshraj
+       runs-on: gullu-singh
+       steps:
+       - name: Alakh-pandey 
+         run: echo bingo-singh
+   
