@@ -1,0 +1,4 @@
+name: "this is my pipeline"
+on: 
+
+workflow_dispatch:
